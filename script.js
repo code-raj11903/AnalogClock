@@ -19,7 +19,7 @@ function show_clk() {
     h.style.transform = `rotate(${hrotation}deg)`;
 
     if (hours>22 || hours < 10) {
-        document.querySelector(".clock").style.backgroundImage = "url('./clock-night.png')";
+        document.querySelector(".clock").style.backgroundImage = "url('./images/clock-night.png ')";
         document.querySelector(".clock").style.opacity = "0.8";
         const gradientColor1 = 'rgb(54, 25, 49)';
         const gradientColor2 = 'rgb(2, 2, 52)';
